@@ -5,7 +5,6 @@ import Game from './tic'; // imports Tic Tac Toe Game
 
 
 
-
 class App extends Component {
   render() {
       return <div className="App">
