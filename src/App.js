@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css'; // imports css stylings
 import Game from './tic'; // imports Tic Tac Toe Game
-import connection from './MySqlConnect';
-
 
 
 
@@ -22,7 +20,6 @@ class App extends Component {
           <div>
               <p className="App-intro">
                   Connection Status:
-                    <connection />
               </p>
           </div>
 
