@@ -1,0 +1,41 @@
+body {
+    font: 14px "Arial Black", Futura, sans-serif;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status { margin-bottom: 0%; }
+
+.square {
+    background: #ffffff;
+    border: 2px solid #686868;
+    float: left;
+    font-size: 60px; /* font size for each item in a box */
+    font-weight: bold;
+    line-height: 46px;
+    height: 90px;
+    padding: 0%;
+    text-align: center;
+    width: 90px;
+}
+
+.square:focus { outline: none; }
+
+.kbd-navigation .square:focus { background: #ddd; }
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 2%;
+}
